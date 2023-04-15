@@ -11,4 +11,9 @@ CREATE TABLE IF NOT EXISTS tasks (
 );
 """
 
+eq_insert_test_tasks = """
+INSERT INTO tasks(type, type_id) VALUES
+()
+"""
+
 db.execute_query(cn, eq_create_table_tasks)

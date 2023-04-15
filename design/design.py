@@ -21,15 +21,16 @@ def main():
     # initalize 'global' vals
     # min size of task prints
     TASK_MIN_LIM_DISP = 6
-    # init empty list
     
+    # init empty list
     task_l = []
     task = Task('Finish','CHECKBOX','13')
     task_l.append(task)
     
+    #opening message
     print("Welcome to doTask, choose a month to start! ")
+    
     # generate month arrays
-
     # TO-DO: GENERATE ALL MONTHS
     jan = list(range(1,32))
     feb = list(range(1,29))
@@ -62,6 +63,12 @@ def main():
     print('\n--------------------------------------------------------')
 
     io_day = int(input('\nEnter day (number): '))
+
+
+    #
+    # WHILE LOOP (sent. logic)
+    #
+
     # choose day
     print('--------------------------------------------------------')
     print('\t\t','2023,',month_str,io_day,'\t\t\t')
@@ -77,7 +84,6 @@ def main():
     # add, edit, remove
 
     print('\n--------------------------------------------------------')
-
     print('(a) to Add task  (e) to Edit task  (r) to remove task')
     print('\t  (b) to go Back, (q) to Quit')
     print('--------------------------------------------------------')

@@ -32,4 +32,4 @@ def num_to_month(month):
         case 11:
             return 'November'
         case 12:
-            return 'Decembe'
+            return 'December'

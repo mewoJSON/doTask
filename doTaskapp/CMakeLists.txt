@@ -17,6 +17,20 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
+        im.qrc
+
+        daywindow.cpp
+        daywindow.h
+        daywindow.ui
+
+        global.h
+        global.cpp
+
+        objective.cpp
+
+        createtask.ui
+        createtask.cpp
+        createtask.h
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
