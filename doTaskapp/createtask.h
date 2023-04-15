@@ -18,6 +18,7 @@ private slots:
     void setScore();
     void setCheckbox();
     void setTask();
+    void exit();
 
 private:
     std::string t_type = "Checkbox";

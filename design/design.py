@@ -1,5 +1,5 @@
 '''
-Authors: Julian Bottero, Joey Stasiulis
+Authors: Julian Bottero, Joey Stasiulis, Noah Goins
 Date: Apr 14, 19:28
 
 Concept: 
@@ -19,6 +19,7 @@ from task import *
 
 def main(): 
     # initalize 'global' vals
+    total_tasks = 0
     # min size of task prints
     TASK_MIN_LIM_DISP = 6
     
@@ -64,29 +65,44 @@ def main():
 
     io_day = int(input('\nEnter day (number): '))
 
-
-    #
-    # WHILE LOOP (sent. logic)
-    #
-
-    # choose day
-    print('--------------------------------------------------------')
-    print('\t\t','2023,',month_str,io_day,'\t\t\t')
-
-    for task in task_l:
-        print(task)
+    # Collect task input from the user
+    io_task = input('\nEnter name of the task, press (Q) to Quit: ')
     
-    if (len(task_l) < 3):
+    # While loop to manage user input
+    while io_task != 'Q' or 'q':
+        print('Thank you for adding task. Task is now added to list!')
+        task_l += [[io_task]]
+        total_tasks += 1
+        print('There are currently', total_tasks, 'tasks.')
+        io_task = input('Would you like to add any more tasks? Press (A) to Add or (Q) to Quit: ')
 
-        for task in range(TASK_MIN_LIM_DISP-len(task_l)):
-            print()
-
-    # add, edit, remove
-
-    print('\n--------------------------------------------------------')
-    print('(a) to Add task  (e) to Edit task  (r) to remove task')
-    print('\t  (b) to go Back, (q) to Quit')
-    print('--------------------------------------------------------')
-
+        if io_task == 'Q' or io_task == 'q':
+            print('Quitting program, have a wonderful day!')
+            exit()
+        
+        # Reloop if prompted
+        while io_task == 'A' or 'a':
+            io_month = int(input('Enter month (number): '))
+            month_str = num_to_month(io_month)
+            print('\nDisplaying',month_str)
+            print('--------------------------------------------------------')
+            for entry in months[io_month-1]:
+                print(entry,'\t', end=' ')
+                if entry % 7 == 0:
+                    print()
+            print('\n--------------------------------------------------------')
+            io_day = int(input('\nEnter day (number): '))
+            io_task = input('\nEnter name of the task, press (Q) to Quit: ')
+            print('Thank you for adding task. Task is now added to list!')
+            task_l += [[io_task]]
+            total_tasks += 1
+            print('There are currently', total_tasks, 'tasks.')
+            io_task = input('Would you like to add any more tasks? Press (A) to Add or (Q) to Quit: ')
+            if io_task == 'Q' or  io_task == 'q':
+                print('Quitting program. Have a wonderful day!')
+                exit()
+        if io_task == 'Q' or io_task == 'q':
+            print('Quitting program. Have a wonderful day!')
+            exit()
 
 main()

@@ -1,7 +1,7 @@
 #include "createtask.h"
 #include "ui_createtask.h"
 #include "global.h"
-
+#include <QDebug>
 
 createTask::createTask(QWidget *parent) :
     QDialog(parent),
@@ -37,10 +37,13 @@ void createTask::setTask()
     QString f_name = ui->namereq->text();
     std::string t_name = f_name.toStdString();
     std::string t_date = std::to_string(month) + ' ' +day.toStdString();
+    std::string t_description = (ui->notereq->text()).toStdString();
 
     job.date = t_date;
     job.name = t_name;
     job.type = t_type;
+    job.description = t_description;
+    qDebug() << job.date;
 
     all_tasks.push_back(job);
 
@@ -49,3 +52,6 @@ void createTask::setTask()
 
 }
 
+void createTask::exit() {
+
+}

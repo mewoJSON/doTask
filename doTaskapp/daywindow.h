@@ -4,6 +4,8 @@
 #include <QMainWindow>
 #include "mainwindow.h"
 #include "objective.cpp"
+#include <QPushButton>
+#include <QCheckBox>
 
 namespace Ui {
 class daywindow;
@@ -26,6 +28,8 @@ private slots:
     void addTask();
     void pushTask();
     void edit();
+    void is_done();
+
 private:
     Ui::daywindow *ui;
     int day_i = day.toInt();
@@ -33,6 +37,8 @@ private:
     QString month_range[12] = {"January","February","March","April","May","June","July","August","September","October","November","December"};
 
     std::vector<std::unique_ptr<QPushButton>> m_buttons;
+    std::vector<std::unique_ptr<QCheckBox>> m_check;
+
     //std::vector<myObjective> m_tasks;
 
     std::vector<myObjective> today_tasks;
