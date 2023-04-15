@@ -24,6 +24,7 @@ daywindow::daywindow(QWidget *parent) :
     QObject::connect(ui->add_b, SIGNAL(clicked()),
                      this, SLOT(addTask()));
 
+
 }
 
 daywindow::~daywindow()
@@ -35,6 +36,7 @@ void daywindow::addTask()
 {
     QWidget *window = new createTask;
     window->show();
+    syncQt();
 }
 
 void daywindow::goBack() {
@@ -99,6 +101,9 @@ void daywindow::increaseMonth() {
         syncQt();
         return;
     }
+    else {
+        day_i = 0;
+    }
     qDebug() << "Cannot increase month further!";
 }
 
@@ -146,6 +151,19 @@ void daywindow::pushTask() {
 }
 
 void daywindow::edit() {
+
+    last_clicked = qobject_cast< QPushButton* >( sender() );
+    last_index = last_clicked->objectName().toInt();
+
+
+    // save
+    all_tasks.erase(all_tasks.begin()+last_index);
+    syncQt();
+}
+
+void daywindow::modify() {
+
+    this->hide();
 
 }
 

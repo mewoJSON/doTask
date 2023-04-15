@@ -105,6 +105,14 @@ build CMakeFiles/doTaskapp.dir/createtask.cpp.o: CXX_COMPILER__doTaskapp_Debug /
   OBJECT_DIR = CMakeFiles/doTaskapp.dir
   OBJECT_FILE_DIR = CMakeFiles/doTaskapp.dir
 
+build CMakeFiles/doTaskapp.dir/database.cpp.o: CXX_COMPILER__doTaskapp_Debug /home/mewo/cathacks23/doTask/doTaskapp/database.cpp || cmake_object_order_depends_target_doTaskapp
+  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
+  DEP_FILE = CMakeFiles/doTaskapp.dir/database.cpp.o.d
+  FLAGS = -DQT_QML_DEBUG -g -fPIC -std=gnu++17
+  INCLUDES = -I/home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/doTaskapp_autogen/include -isystem /home/mewo/Qt/6.5.0/gcc_64/include/QtCore -isystem /home/mewo/Qt/6.5.0/gcc_64/include -isystem /home/mewo/Qt/6.5.0/gcc_64/mkspecs/linux-g++ -isystem /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets -isystem /home/mewo/Qt/6.5.0/gcc_64/include/QtGui
+  OBJECT_DIR = CMakeFiles/doTaskapp.dir
+  OBJECT_FILE_DIR = CMakeFiles/doTaskapp.dir
+
 build CMakeFiles/doTaskapp.dir/doTaskapp_autogen/EWIEGA46WW/qrc_im.cpp.o: CXX_COMPILER__doTaskapp_Debug /home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/doTaskapp_autogen/EWIEGA46WW/qrc_im.cpp || cmake_object_order_depends_target_doTaskapp
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
   DEP_FILE = CMakeFiles/doTaskapp.dir/doTaskapp_autogen/EWIEGA46WW/qrc_im.cpp.o.d
@@ -121,7 +129,7 @@ build CMakeFiles/doTaskapp.dir/doTaskapp_autogen/EWIEGA46WW/qrc_im.cpp.o: CXX_CO
 #############################################
 # Link the executable doTaskapp
 
-build doTaskapp: CXX_EXECUTABLE_LINKER__doTaskapp_Debug CMakeFiles/doTaskapp.dir/doTaskapp_autogen/mocs_compilation.cpp.o CMakeFiles/doTaskapp.dir/main.cpp.o CMakeFiles/doTaskapp.dir/mainwindow.cpp.o CMakeFiles/doTaskapp.dir/daywindow.cpp.o CMakeFiles/doTaskapp.dir/global.cpp.o CMakeFiles/doTaskapp.dir/objective.cpp.o CMakeFiles/doTaskapp.dir/createtask.cpp.o CMakeFiles/doTaskapp.dir/doTaskapp_autogen/EWIEGA46WW/qrc_im.cpp.o | /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Widgets.so.6.5.0 /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Gui.so.6.5.0 /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Core.so.6.5.0 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || doTaskapp_autogen doTaskapp_autogen_timestamp_deps
+build doTaskapp: CXX_EXECUTABLE_LINKER__doTaskapp_Debug CMakeFiles/doTaskapp.dir/doTaskapp_autogen/mocs_compilation.cpp.o CMakeFiles/doTaskapp.dir/main.cpp.o CMakeFiles/doTaskapp.dir/mainwindow.cpp.o CMakeFiles/doTaskapp.dir/daywindow.cpp.o CMakeFiles/doTaskapp.dir/global.cpp.o CMakeFiles/doTaskapp.dir/objective.cpp.o CMakeFiles/doTaskapp.dir/createtask.cpp.o CMakeFiles/doTaskapp.dir/database.cpp.o CMakeFiles/doTaskapp.dir/doTaskapp_autogen/EWIEGA46WW/qrc_im.cpp.o | /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Widgets.so.6.5.0 /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Gui.so.6.5.0 /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Core.so.6.5.0 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || doTaskapp_autogen doTaskapp_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/mewo/Qt/6.5.0/gcc_64/lib:  /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Widgets.so.6.5.0  /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Gui.so.6.5.0  /home/mewo/Qt/6.5.0/gcc_64/lib/libQt6Core.so.6.5.0  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/doTaskapp.dir

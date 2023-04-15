@@ -1,6 +1,7 @@
 /home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/doTaskapp_autogen/EWIEGA46WW/moc_daywindow.cpp: /home/mewo/cathacks23/doTask/doTaskapp/daywindow.h \
   /home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/doTaskapp_autogen/moc_predefs.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/QDebug \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/QFileInfo \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/QString \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/q20memory.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/q20type_traits.h \
@@ -18,6 +19,7 @@
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qbytearraylist.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qcalendar.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qchar.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qcompare.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qcompare_impl.h \
@@ -30,8 +32,12 @@
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qcontiguouscache.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qdatastream.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qdatetime.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qdebug.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qexceptionhandling.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qfile.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qfiledevice.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qfileinfo.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qflags.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qfloat16.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qforeach.h \
@@ -41,11 +47,13 @@
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qglobalstatic.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qhash.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qiodevice.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qiodevicebase.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qiterable.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qiterator.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qline.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qlist.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qlocale.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qlogging.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qmalloc.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtCore/qmap.h \
@@ -134,10 +142,14 @@
   /home/mewo/Qt/6.5.0/gcc_64/include/QtGui/qtransform.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtGui/qwindowdefs.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QCheckBox \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QDialog \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QDialogButtonBox \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QPushButton \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qabstractbutton.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qcheckbox.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qdialog.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qsizepolicy.h \
@@ -146,6 +158,7 @@
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qtwidgetsexports.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qwidget.h \
+  /home/mewo/cathacks23/doTask/doTaskapp/database.h \
   /home/mewo/cathacks23/doTask/doTaskapp/global.h \
   /home/mewo/cathacks23/doTask/doTaskapp/mainwindow.h \
   /home/mewo/cathacks23/doTask/doTaskapp/objective.cpp \
@@ -174,6 +187,7 @@
   /usr/include/c++/11/bits/c++0x_warning.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/codecvt.h \
   /usr/include/c++/11/bits/concept_check.h \
   /usr/include/c++/11/bits/cpp_type_traits.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
@@ -183,17 +197,26 @@
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_defines.h \
   /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/fs_dir.h \
+  /usr/include/c++/11/bits/fs_fwd.h \
+  /usr/include/c++/11/bits/fs_ops.h \
+  /usr/include/c++/11/bits/fs_path.h \
+  /usr/include/c++/11/bits/fstream.tcc \
   /usr/include/c++/11/bits/functexcept.h \
   /usr/include/c++/11/bits/functional_hash.h \
   /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/istream.tcc \
   /usr/include/c++/11/bits/iterator_concepts.h \
   /usr/include/c++/11/bits/list.tcc \
   /usr/include/c++/11/bits/locale_classes.h \
   /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/c++/11/bits/max_size_type.h \
   /usr/include/c++/11/bits/memoryfwd.h \
@@ -206,6 +229,7 @@
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/bits/quoted_string.h \
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/c++/11/bits/ranges_algo.h \
   /usr/include/c++/11/bits/ranges_algobase.h \
@@ -257,12 +281,15 @@
   /usr/include/c++/11/climits \
   /usr/include/c++/11/clocale \
   /usr/include/c++/11/cmath \
+  /usr/include/c++/11/codecvt \
   /usr/include/c++/11/compare \
   /usr/include/c++/11/concepts \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/cstdint \
+  /usr/include/c++/11/cstdio \
   /usr/include/c++/11/cstdlib \
   /usr/include/c++/11/cstring \
+  /usr/include/c++/11/ctime \
   /usr/include/c++/11/cwchar \
   /usr/include/c++/11/cwctype \
   /usr/include/c++/11/debug/assertions.h \
@@ -276,13 +303,19 @@
   /usr/include/c++/11/ext/numeric_traits.h \
   /usr/include/c++/11/ext/string_conversions.h \
   /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/filesystem \
+  /usr/include/c++/11/fstream \
   /usr/include/c++/11/functional \
   /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/iomanip \
   /usr/include/c++/11/ios \
   /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/istream \
   /usr/include/c++/11/iterator \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/list \
+  /usr/include/c++/11/locale \
   /usr/include/c++/11/map \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/new \
@@ -298,6 +331,7 @@
   /usr/include/c++/11/streambuf \
   /usr/include/c++/11/string \
   /usr/include/c++/11/string_view \
+  /usr/include/c++/11/system_error \
   /usr/include/c++/11/tr1/bessel_function.tcc \
   /usr/include/c++/11/tr1/beta_function.tcc \
   /usr/include/c++/11/tr1/ell_integral.tcc \
@@ -322,6 +356,7 @@
   /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/libintl.h \
   /usr/include/limits.h \
   /usr/include/linux/errno.h \
   /usr/include/linux/limits.h \
@@ -415,15 +450,19 @@
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \

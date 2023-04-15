@@ -59,6 +59,7 @@ public:
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
         add_b = new QPushButton(horizontalLayoutWidget);
         add_b->setObjectName("add_b");
+        add_b->setStyleSheet(QString::fromUtf8("background-color: rgb(174, 252, 113);"));
 
         horizontalLayout->addWidget(add_b);
 

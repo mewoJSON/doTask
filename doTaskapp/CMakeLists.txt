@@ -31,6 +31,12 @@ set(PROJECT_SOURCES
         createtask.ui
         createtask.cpp
         createtask.h
+
+        database.cpp
+        database.h
+
+        cmds.sql
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)

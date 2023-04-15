@@ -398,6 +398,12 @@
 			null
 		],
 		[
+			"/home/mewo/cathacks23/doTask/doTaskapp/database.h",
+			"MU",
+			"EWIEGA46WW/moc_database.cpp",
+			null
+		],
+		[
 			"/home/mewo/cathacks23/doTask/doTaskapp/daywindow.h",
 			"MU",
 			"EWIEGA46WW/moc_daywindow.cpp",
@@ -413,12 +419,6 @@
 			"/home/mewo/cathacks23/doTask/doTaskapp/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
-			null
-		],
-		[
-			"/home/mewo/cathacks23/doTask/doTaskapp/objective.h",
-			"MU",
-			"EWIEGA46WW/moc_objective.cpp",
 			null
 		]
 	],
@@ -480,6 +480,7 @@
 	"SOURCES" : 
 	[
 		[ "/home/mewo/cathacks23/doTask/doTaskapp/createtask.cpp", "MU", null ],
+		[ "/home/mewo/cathacks23/doTask/doTaskapp/database.cpp", "MU", null ],
 		[ "/home/mewo/cathacks23/doTask/doTaskapp/daywindow.cpp", "MU", null ],
 		[ "/home/mewo/cathacks23/doTask/doTaskapp/global.cpp", "MU", null ],
 		[ "/home/mewo/cathacks23/doTask/doTaskapp/main.cpp", "MU", null ],

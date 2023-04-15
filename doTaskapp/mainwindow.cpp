@@ -2,13 +2,25 @@
 #include "./ui_mainwindow.h"
 #include "daywindow.h"
 
+
+
+
 // global variables
-const QSize B_SIZE(20,20);
+const QSize B_SIZE(125,85);
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
+
+    std::ifstream input("database.txt");
+    std::string line;
+    std::vector<std::string> collect;
+
+    while( std::getline( input, line ) ) {
+        collect.push_back(line);
+    }
+
 
     ui->setupUi(this);
     // set year
@@ -32,6 +44,7 @@ MainWindow::~MainWindow()
 }
 
 void MainWindow::quit() {
+    myfile.close();
     QApplication::quit();
 }
 
@@ -79,7 +92,7 @@ void MainWindow::generateGrid() {
 
     for (int k = 0; k < current_month; k++) {
         auto button = std::make_unique<QPushButton>(this);
-        button->setIconSize(B_SIZE);
+        button->setFixedSize(B_SIZE);
         button->setFlat(false);
         button->setObjectName(QString::number(k));
         button->setText(QString::number(k+1));
@@ -89,8 +102,9 @@ void MainWindow::generateGrid() {
             i = 0;
         }
         ui->gridLayout->addWidget(m_buttons.back().get(), j, i);
+        ui->gridLayout->setSpacing(2);
         ++i;
-        QObject::connect(m_buttons.back().get(), SIGNAL(clicked()), this, SLOT(openDay()));
+        QObject::connect(m_buttons.back().get(), SIGNAL(clicked()   ), this, SLOT(openDay()));
     }
 }
 

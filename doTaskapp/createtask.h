@@ -20,6 +20,7 @@ private slots:
     void setTask();
     void exit();
 
+
 private:
     std::string t_type = "Checkbox";
     Ui::createTask *ui;

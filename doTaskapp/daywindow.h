@@ -6,6 +6,8 @@
 #include "objective.cpp"
 #include <QPushButton>
 #include <QCheckBox>
+#include <QDialogButtonBox>
+#include <QDialog>
 
 namespace Ui {
 class daywindow;
@@ -22,6 +24,7 @@ public:
 
 private slots:
     void goBack();
+    void modify();
     void syncQt();
     void decreaseMonth();
     void increaseMonth();

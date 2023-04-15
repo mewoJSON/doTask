@@ -34,13 +34,16 @@ public:
     QRadioButton *isUrgent;
     QPushButton *add_b;
     QLabel *label_6;
-    QPushButton *pushButton;
+    QPushButton *exit_q;
 
     void setupUi(QDialog *createTask)
     {
         if (createTask->objectName().isEmpty())
             createTask->setObjectName("createTask");
         createTask->resize(535, 498);
+        createTask->setMinimumSize(QSize(535, 498));
+        createTask->setMaximumSize(QSize(535, 498));
+        createTask->setStyleSheet(QString::fromUtf8("background-color: rgb(221, 237, 236);"));
         label = new QLabel(createTask);
         label->setObjectName("label");
         label->setGeometry(QRect(40, 80, 111, 51));
@@ -92,15 +95,15 @@ public:
         add_b->setGeometry(QRect(150, 420, 231, 61));
         label_6 = new QLabel(createTask);
         label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(320, 160, 191, 171));
+        label_6->setGeometry(QRect(310, 160, 191, 171));
         label_6->setSizeIncrement(QSize(0, 0));
-        pushButton = new QPushButton(createTask);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(460, 10, 61, 61));
+        exit_q = new QPushButton(createTask);
+        exit_q->setObjectName("exit_q");
+        exit_q->setGeometry(QRect(460, 10, 61, 61));
         QFont font3;
         font3.setPointSize(26);
-        pushButton->setFont(font3);
-        pushButton->setStyleSheet(QString::fromUtf8("border-color: rgb(255, 255, 255);\n"
+        exit_q->setFont(font3);
+        exit_q->setStyleSheet(QString::fromUtf8("border-color: rgb(255, 255, 255);\n"
 "background-color: rgb(246, 97, 81);"));
 
         retranslateUi(createTask);
@@ -121,7 +124,7 @@ public:
         isUrgent->setText(QCoreApplication::translate("createTask", "Yes", nullptr));
         add_b->setText(QCoreApplication::translate("createTask", "Add", nullptr));
         label_6->setText(QCoreApplication::translate("createTask", "<html><head/><body><p><img src=\":/logo_small.png\"/></p></body></html>", nullptr));
-        pushButton->setText(QCoreApplication::translate("createTask", "x", nullptr));
+        exit_q->setText(QCoreApplication::translate("createTask", "x", nullptr));
     } // retranslateUi
 
 };

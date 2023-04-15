@@ -26,6 +26,9 @@
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QPushButton" name="add_b">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(174, 252, 113);</string>
+       </property>
        <property name="text">
         <string>Add</string>
        </property>

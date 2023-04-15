@@ -7,8 +7,10 @@
 #include <QDebug>
 #include <vector>
 #include "global.h"
-#include "objective.cpp"
-
+#include "database.h"
+#include <iostream>
+#include <fstream>
+#include <string>
 
 
 QT_BEGIN_NAMESPACE
@@ -27,6 +29,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    std::ofstream myfile;
+
 
     // counter for current month and day
 
