@@ -101,10 +101,13 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>184</y>
+      <y>194</y>
       <width>41</width>
-      <height>411</height>
+      <height>401</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">gridline-color: rgb(0, 0, 0);</string>
     </property>
     <property name="text">
      <string/>
@@ -114,9 +117,9 @@
     <property name="geometry">
      <rect>
       <x>1030</x>
-      <y>190</y>
+      <y>200</y>
       <width>41</width>
-      <height>411</height>
+      <height>401</height>
      </rect>
     </property>
     <property name="text">

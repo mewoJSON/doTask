@@ -100,10 +100,11 @@ public:
 
         left_b = new QPushButton(centralwidget);
         left_b->setObjectName("left_b");
-        left_b->setGeometry(QRect(20, 184, 41, 411));
+        left_b->setGeometry(QRect(20, 194, 41, 401));
+        left_b->setStyleSheet(QString::fromUtf8("gridline-color: rgb(0, 0, 0);"));
         right_b = new QPushButton(centralwidget);
         right_b->setObjectName("right_b");
-        right_b->setGeometry(QRect(1030, 190, 41, 411));
+        right_b->setGeometry(QRect(1030, 200, 41, 401));
         empty_l = new QLabel(centralwidget);
         empty_l->setObjectName("empty_l");
         empty_l->setGeometry(QRect(0, -60, 711, 111));

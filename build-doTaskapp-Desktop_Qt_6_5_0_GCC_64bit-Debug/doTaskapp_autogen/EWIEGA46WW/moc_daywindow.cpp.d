@@ -133,9 +133,11 @@
   /home/mewo/Qt/6.5.0/gcc_64/include/QtGui/qtguiglobal.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtGui/qtransform.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtGui/qwindowdefs.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QCheckBox \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QMainWindow \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/QPushButton \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qabstractbutton.h \
+  /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qcheckbox.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/mewo/Qt/6.5.0/gcc_64/include/QtWidgets/qsizepolicy.h \

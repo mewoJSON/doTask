@@ -29,11 +29,12 @@ public:
     QRadioButton *scorereq;
     QLabel *label_3;
     QLabel *label_4;
-    QLineEdit *lineEdit_2;
+    QLineEdit *notereq;
     QLabel *label_5;
     QRadioButton *isUrgent;
     QPushButton *add_b;
     QLabel *label_6;
+    QPushButton *pushButton;
 
     void setupUi(QDialog *createTask)
     {
@@ -76,9 +77,9 @@ public:
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(40, 310, 211, 51));
         label_4->setFont(font2);
-        lineEdit_2 = new QLineEdit(createTask);
-        lineEdit_2->setObjectName("lineEdit_2");
-        lineEdit_2->setGeometry(QRect(40, 360, 441, 31));
+        notereq = new QLineEdit(createTask);
+        notereq->setObjectName("notereq");
+        notereq->setGeometry(QRect(40, 360, 441, 31));
         label_5 = new QLabel(createTask);
         label_5->setObjectName("label_5");
         label_5->setGeometry(QRect(200, 140, 211, 51));
@@ -91,8 +92,16 @@ public:
         add_b->setGeometry(QRect(150, 420, 231, 61));
         label_6 = new QLabel(createTask);
         label_6->setObjectName("label_6");
-        label_6->setGeometry(QRect(320, 180, 191, 171));
+        label_6->setGeometry(QRect(320, 160, 191, 171));
         label_6->setSizeIncrement(QSize(0, 0));
+        pushButton = new QPushButton(createTask);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(460, 10, 61, 61));
+        QFont font3;
+        font3.setPointSize(26);
+        pushButton->setFont(font3);
+        pushButton->setStyleSheet(QString::fromUtf8("border-color: rgb(255, 255, 255);\n"
+"background-color: rgb(246, 97, 81);"));
 
         retranslateUi(createTask);
 
@@ -103,7 +112,7 @@ public:
     {
         createTask->setWindowTitle(QCoreApplication::translate("createTask", "Dialog", nullptr));
         label->setText(QCoreApplication::translate("createTask", "Name:", nullptr));
-        label_2->setText(QCoreApplication::translate("createTask", "Create a new task!", nullptr));
+        label_2->setText(QCoreApplication::translate("createTask", "Manage a task!", nullptr));
         checkboxreq->setText(QCoreApplication::translate("createTask", "Checkbox", nullptr));
         scorereq->setText(QCoreApplication::translate("createTask", "Score", nullptr));
         label_3->setText(QCoreApplication::translate("createTask", "Type:", nullptr));
@@ -112,6 +121,7 @@ public:
         isUrgent->setText(QCoreApplication::translate("createTask", "Yes", nullptr));
         add_b->setText(QCoreApplication::translate("createTask", "Add", nullptr));
         label_6->setText(QCoreApplication::translate("createTask", "<html><head/><body><p><img src=\":/logo_small.png\"/></p></body></html>", nullptr));
+        pushButton->setText(QCoreApplication::translate("createTask", "x", nullptr));
     } // retranslateUi
 
 };
