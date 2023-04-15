@@ -75,7 +75,7 @@
     <string>Checkbox</string>
    </property>
   </widget>
-  <widget class="QRadioButton" name="scoreref">
+  <widget class="QRadioButton" name="scorereq">
    <property name="geometry">
     <rect>
      <x>40</x>

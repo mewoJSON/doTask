@@ -6,4 +6,5 @@
 extern int month;
 extern QString day;
 
-extern myObjective task;
+extern myObjective job;
+extern std::vector<myObjective> all_tasks;

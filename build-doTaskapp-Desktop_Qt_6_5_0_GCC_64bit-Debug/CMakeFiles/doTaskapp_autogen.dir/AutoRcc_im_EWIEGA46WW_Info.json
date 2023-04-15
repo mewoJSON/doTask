@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/doTaskapp_autogen",
+	"CMAKE_BINARY_DIR" : "/home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/mewo/cathacks23/doTask/doTaskapp",
+	"CMAKE_SOURCE_DIR" : "/home/mewo/cathacks23/doTask/doTaskapp",
+	"INCLUDE_DIR" : "/home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/doTaskapp_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/mewo/cathacks23/doTask/doTaskapp/images/logo.png",
+		"/home/mewo/cathacks23/doTask/doTaskapp/images/logo_f.png"
+	],
+	"LOCK_FILE" : "/home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/doTaskapp_autogen.dir/AutoRcc_im_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "im" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_im.cpp",
+	"RCC_EXECUTABLE" : "/home/mewo/Qt/6.5.0/gcc_64/./libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/mewo/cathacks23/doTask/build-doTaskapp-Desktop_Qt_6_5_0_GCC_64bit-Debug/CMakeFiles/doTaskapp_autogen.dir/AutoRcc_im_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/mewo/cathacks23/doTask/doTaskapp/im.qrc",
+	"VERBOSITY" : 0
+}

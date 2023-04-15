@@ -1,4 +1,5 @@
 #include "daywindow.h"
+#include "createtask.h"
 #include "ui_daywindow.h"
 #include "mainwindow.h"
 #include <QLabel>
@@ -32,7 +33,8 @@ daywindow::~daywindow()
 
 void daywindow::addTask()
 {
-
+    QWidget *window = new createTask;
+    window->show();
 }
 
 void daywindow::goBack() {
@@ -43,6 +45,14 @@ void daywindow::goBack() {
 
 void daywindow::syncQt() {
 
+    today_tasks.clear();
+
+    for (int i = 0; i < all_tasks.size(); i++) {
+        if (all_tasks[i].date == std::to_string(month) + ' ' + day.toStdString())
+        {
+            today_tasks.push_back(all_tasks[i]);
+        }
+    }
 
     ui->year_l->setText("2023");
     ui->month_l->setText(month_range[month]);
@@ -64,8 +74,10 @@ void daywindow::syncQt() {
     }
     else {
         ui->empty_l->setText("");
-\
+
     }
+
+    pushTask();
 }
 void daywindow::decreaseMonth() {
     if (day_i != 0) {
@@ -83,4 +95,19 @@ void daywindow::increaseMonth() {
         return;
     }
     qDebug() << "Cannot increase month further!";
+}
+
+void daywindow::pushTask() {
+    for (int i = 0; i < today_tasks.size(); i++) {
+        auto button = std::make_unique<QPushButton>(this);
+        button->setObjectName(today_tasks[i].date);
+        m_buttons.push_back(std::move(button));
+        ui->gridLayout->addWidget(m_buttons.back().get(), 1, i);
+        //QObject::connect(m_buttons.back().get(), SIGNAL(clicked()), this, SLOT(edit()));
+    }
+
+}
+
+void daywindow::edit() {
+
 }

@@ -15,9 +15,12 @@ public:
     explicit createTask(QWidget *parent = nullptr);
     ~createTask();
 private slots:
+    void setScore();
+    void setCheckbox();
     void setTask();
 
 private:
+    std::string t_type = "Checkbox";
     Ui::createTask *ui;
 };
 
